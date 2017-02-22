@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf8'>
+<script src="jquery-3.1.1.js"></script>
+<script type="text/javascript">
+    $(function() {
+  $("a[rel]").overlay(function() {
+  var wrap = this.getContent().find("div.wrap");
+  if (wrap.is(":empty")) {
+  wrap.load(this.getTrigger().attr("href"));
+  }
+  });
+  });
+    </script>
+</head>
+<body>
+<h1 class='contact-title'>Отправка Сообщения Администрации:</h1>
+<form action="send.php" method="post">
+<table>
+<tbody><tr>
+<th class="lable">*Имя:</th>
+<td class="input"><input name="name" size="40" maxlength="40" class="input" type="text"></td>
+</tr>
+<tr>
+<th class="lable">*E-mail:</th>
+<td class="input"><input name="email" size="40" maxlength="40" class="input" type="text"></td>
+</tr>
+<tr>
+<th class="lable">Тема:</th>
+<td class="input"><input name="subject" size="40" maxlength="40" class="input" type="text"></td>
+</tr>
+<tr>
+<th class="lable">*Сообщение:</th>
+<td class="input"><textarea name="text_message" cols="40" rows="10" class="input"></textarea></td>
+</tr> 
+<br><br> 
+<tr><th></th>
+<td align="center">
+<input name="mail_submit" type="submit" value="Отправить сообщение">     </td>
+</tr>
+</tbody></table>
+</form>
+</body>
+</html>

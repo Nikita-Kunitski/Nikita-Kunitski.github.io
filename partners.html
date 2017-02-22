@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MySound</title>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="shortcut icon" href="logo_title.jpg">
+        <script type="text/javascript">
+            function show()
+            {
+                    alert("ВНИМАНИЕ! \nЭта страница работает только в Internet Explorer 9?");
+            }
+        </script>
+    </head>
+    <body onload="show()">
+        <div id="main">
+            <div id="header">
+		  <table>
+			<tr>
+				<td><a href="index.html"><img src="menu_td_1.png"></a></td>
+				<td><a href="marshall/marshall.html" target="_blank"><img src="menu_td_2.png"></a></td>
+                <td><a href="cort/cort.html" target="_blank"><img src="menu_td_3.png"></a></td>
+                <td><a href="yamaha/yamaha.html" target="_blank"><img src="menu_td_4.png"></a></td>
+                <td><a href="JBL/JBL.html" target="_blank"><img src="menu_td_5.png"></a></td>
+                <td><a href="other/other.html" target="_blank"><img src="menu_td_6.png"></a></td>
+			</tr>
+		  </table>
+	       </div>
+            <div id="midle">
+                <xml id="partners_xml" src="partners.xml"></xml>
+                <div id="partners">
+                    <div id="orange">
+                        <h1><span datasrc="#partners_xml" datafld="firma1">
+                            </span></h1>
+                        <h3><span datasrc="#partners_xml" datafld="product1" >
+                            </span></h3>
+                        <span datasrc="#partners_xml" datafld="information1" >
+                        </span><br><br>
+                    </div>
+                    <div id="marshall">
+                        <h1><span datasrc="#partners_xml" datafld="firma2">
+                            </span></h1>
+                        <h3><span datasrc="#partners_xml" datafld="product2" >
+                            </span></h3>
+                        <span datasrc="#partners_xml" datafld="information2" >
+                        </span><br><br>
+                    </div>
+                    <div id="sony">
+                        <h1><span datasrc="#partners_xml" datafld="firma3">
+                            </span></h1>
+                        <h3><span datasrc="#partners_xml" datafld="product3" >
+                            </span></h3>
+                        <span datasrc="#partners_xml" datafld="information3" >
+                        </span><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,201 @@
+body
+{
+	background: url(../background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+p, a, h2, h1, li, ul{
+	font-family: helvetica;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#main
+{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	
+}
+
+#header{
+	position: fixed;
+	z-index:1;
+	top:0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+
+
+#header img {
+height: 55%;
+}
+
+#header td
+{
+	text-align: center;
+	-webkit-transition:background-color 0.8s, border-radius 0.8s;
+}
+
+#header td:hover{
+	background-color:#CCC;
+	border-radius: 10px;
+}
+
+#header table
+{
+	width: 100%;
+}
+
+#midle {
+	margin-left: 10%;
+    margin-top: 7%;
+    width: 80%
+}
+ 
+#midle img
+{
+width: 100%;
+}
+
+.product .photo
+{
+ width: 70%;
+}
+
+.product ul li 
+{
+    font-size: 11pt;
+    margin-right: 4%;
+}
+
+#sony
+{
+    width: 20%;
+    cursor: pointer;
+    opacity: 0.7;
+     transition-duration: 0.3s;
+}
+
+#orange
+{
+    width: 20%;
+    cursor: pointer;
+    opacity: 0.7;
+     transition-duration: 0.3s;
+}
+
+#black_star
+{
+    width: 20%;
+    cursor: pointer;
+    opacity: 0.7;
+     transition-duration: 0.3s;
+}
+
+#sony:hover
+{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+#orange:hover
+{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+#black_star:hover
+{
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.but_pay{
+    
+        border: solid 1px black;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border-radius: 10pt;
+    cursor: pointer;
+     -webkit-transition:background-color 0.5s;
+    -o-transition:background-color 0.5s;
+    -moz-transition:background-color 0.5s;
+}
+
+.but_pay:hover{
+    background-color: yellow;
+}
+
+
+.product td
+{
+    width: 33.3%;
+    border-radius: 10pt;
+    background-color: white;
+    text-align: center;
+    -webkit-transition:background-color 0.8s;
+    -o-transition:background-color 0.8s;
+    -moz-transition:background-color 0.8s;
+    
+}
+
+.product td:hover
+{
+    background-color:#CCC;/*сдедаьб увеличение ячеек*/
+}
+
+ .product table
+{   
+    width: 100%;
+}
+
+#information 
+{
+    text-indent: 60pt;
+	font-size: 16pt;
+    margin-left: auto;
+}
+
+#pay_system
+{
+    
+	margin-top: 4%;
+	width: 100%;
+}
+
+#pay_system table
+{
+
+	margin-left: 27%;
+}
+
+#pay_system td{
+	text-align: center;
+	width: 110px;
+    transition-duration: 0.8s;
+}
+
+#pay_system td:hover{	
+	background-color: #C0C0C0;
+	border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0,1);
+}
+
+#law {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 70%;
+}
