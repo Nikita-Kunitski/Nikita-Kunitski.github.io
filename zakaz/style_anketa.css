@@ -3,6 +3,7 @@ body{
     width: 100%;
     position: fixed;
     background-repeat: no-repeat;
+	background-size:cover;
 }
 
 p, a, h2, h3, h1, li, ul{
